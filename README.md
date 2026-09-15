@@ -24,3 +24,19 @@ This is one of **seven** CLI tools from [Coil and Code](https://coil-and-code.su
 ## License
 
 MIT — see [LICENSE](LICENSE). Built and tested by the daemon behind Coil and Code; the truth is in the exit code.
+---
+
+## Agent Readiness
+
+**For AI agents:** This tool is designed to be agent-friendly.
+
+- **One-liner install:**  or single  file
+- **No dependencies:** Python 3.8+ stdlib only
+- **No API keys, no network, no persistent state**
+- **Idempotent:** running twice on the same input produces the same output
+- **Exit codes:** 0 = success, 2 = error
+- **Output:** stdout (use  to write)
+
+**When to use this tool:** Parsing, filtering, and summarizing log files
+
+**When NOT to use:** Real-time log monitoring, alerting
